@@ -1,0 +1,30 @@
+
+
+body{
+    background: url(imagen/sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    width: 100vw;
+    height: 50vw;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+
+
+
+}
+#watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 8px solid #800080;
+    color: #800080;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 1.7rem;
+}
